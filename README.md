@@ -5,8 +5,11 @@ We design a face recognition for political person, which include 274 classes. we
 # prepare dataset
 + you should make a data struct
 >data/class1/sdsd.jpg
+>
 >data/class1/sdsds.jpg
+>
 >...
+>
 >data/class2/asas.jpg
 + revise `make_datasettxt.py` the data_dir...
 + run `python make_datasettxt.py` to generate train_dataset.txt
