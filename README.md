@@ -36,7 +36,7 @@ like this
 # test
 + The face_test_client.py is a pyqt code,you can `python face_test_client`, and enter the port 91, enter a images url to test. The client shows:
 
-![](https://github.com/Harryjun/face_rec/blob/master/images/client.png) 
+![](https://gongkai-1257632417.cos.ap-chengdu.myqcloud.com/client.png) 
 
 + the return value is a json.
 ```json
