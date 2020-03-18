@@ -36,7 +36,7 @@ like this
 # test
 + The face_test_client.py is a pyqt code,you can `python face_test_client`, and enter the port 91, enter a images url to test. The client shows:
 
-![](https://blogpic-1257632417.cos.ap-chengdu.myqcloud.com/BlogGit/base/%E5%BE%AE%E4%BF%A1%E6%88%AA%E5%9B%BE_20200318204100.png) 
+![](images/client.png) 
 
 + the return value is a json.
 ```json
@@ -56,7 +56,8 @@ like this
       "x": 246, 
       "w": 85, 
       "h": 85}}
-    ]
+    ],
+  "img_url": "http://news.cnr.cn/dj/20160914/W020160914388600058399.jpg"
 }
 ```
 + If you want to pull on your own server,you should write a server code, we give a demo `face_test_server.py`
